@@ -1,5 +1,6 @@
 ## Summary
 The goal of this project was to explore and implement robot system that are capable of travelling indoors and being aware of its own locations so that it can be used for robot formational travelling system development. 
+![Uploading image.png…]()
 
 The focus of the project focused on was implementing UWB-based localization. By utilizing one UWB tag placed on the robot and three fixed UWB anchors in the environment, the system measured distances to the anchors and employed triangulation to calculate the robot’s exact position. Testing of the UWB system showed that the system is reasonably accurate for distances up to 6 meters, with an error margin of up to 30 cm at greater distances and under 10 cm for shorter ranges. Such precision makes UWB localization system to be suitable for indoor applications where GPS is not reliable due to the presence of obstacles or its remote locations. 
 
@@ -13,4 +14,5 @@ In summary, this project successfully established the foundations for a mobile r
 
 ## Key Achievements: 
 • Implemented an indoor UWB-based localization system with triangulation for synchronized formational traveling of multiple robots, achieving range accuracy of 10cm.
+
 • Enabled real-time remote control of the robot by implementing an HTTP-based web server and integrated DWM1000 UWB board and internet module over UART
