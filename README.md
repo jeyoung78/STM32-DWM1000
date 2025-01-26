@@ -10,3 +10,7 @@ Components like the Nucleo F411RE microcontroller, motor drivers, and an 11.1V L
 Formational control, which is the ability of multiple robots to maintain coordinated movement, was not fully implemented due to time constraints, but the groundwork has been laid with a reliable localization system in place. Future work can focus on developing a formational control algorithm and enhancing communication between robots to enable real-time change of the formation. Additionally, the integration of obstacle detection and avoidance algorithms will improve the reliability of the system in environments that are unpredictable.
 
 In summary, this project successfully established the foundations for a mobile robot system capable of precise localization and lays the groundwork for future development of fully autonomous, coordinated robot formations.
+
+## Key Achievements: 
+• Implemented an indoor UWB-based localization system with triangulation for synchronized formational traveling of multiple robots, achieving range accuracy of 10cm.
+• Enabled real-time remote control of the robot by implementing an HTTP-based web server and integrated DWM1000 UWB board and internet module over UART
